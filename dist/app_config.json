@@ -1,0 +1,23 @@
+{
+    "box": { 
+        "serviceAccount": "kadams+demo@box.com",
+        "pollingInterval": 60,
+        "lookbackDuration": "month",
+        "lookbackValue": 1,
+        "textFileExtensions": [
+            ".as", ".as3", ".asm", ".bat", ".boxnote", ".c", ".cc", ".cmake", ".cpp", ".cs", ".css", 
+            ".csv", ".cxx", ".diff", ".doc", ".docx", ".erb", ".gdoc", ".groovy", ".gsheet", ".h", ".haml", 
+            ".hh", ".htm", ".html", ".java", ".js", ".less", ".m", ".make", ".ml", ".mm", ".msg", ".odp", ".ods", 
+            ".odt", ".pdf", ".php", ".pl", ".ppt", ".pptx", ".properties", ".py", ".rb", ".rtf", ".sass", ".scala", ".scm", 
+            ".script", ".sh", ".sml", ".sql", ".txt", ".vi", ".vim", ".wpd", ".xls", ".xlsm", ".xlsx", ".xml", 
+            ".xsd", ".xsl", ".yaml", ".bmp", ".gif", ".jpeg", ".jpg", ".png", ".psd", ".svg", ".tif", 
+            ".tiff", ".svs", ".tga"
+        ]
+    },
+    "elastic": {
+        "host": "localhost:9200",
+        "logLevel": "debug",
+        "indexName": "box",
+        "filesType": "files"
+    }
+}
