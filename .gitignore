@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+# custom 
+box_config.json*
+dist/
+babel_cache/
+.DS_Store
+package-lock.json
+yarn.lock
